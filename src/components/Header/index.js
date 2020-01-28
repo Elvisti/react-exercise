@@ -7,9 +7,9 @@ import './style.css';
 function Header() {
     return (
         <div className="container-header">
-            <div className="structure">Logo</div>
+            <Link to="/" className="structure">Logo</Link>
             <nav className="nav">
-                <a href="/#">{this.props.user}Users</a>
+                <Link to="/users">Users</Link>
                 <a href="/#">Contact</a>
                 <a href="/#">Help</a>
             </nav>
