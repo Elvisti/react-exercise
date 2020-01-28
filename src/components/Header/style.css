@@ -1,0 +1,16 @@
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 56px;
+}
+.container-header .nav a{
+    padding: 4px 30px;
+    text-decoration: none;
+    background-color: tomato;
+    color: #fff;
+    margin: 0 10px;
+}
